@@ -9,6 +9,6 @@ app.get('/', (request, response) => {
     response.sendFile(path.join(__dirname + '/index.html'));
 })
 
-app.listen('3000', () => {
+app.listen('80', () => {
     debug('Server running on port 3000');
 });
